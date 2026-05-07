@@ -20,7 +20,7 @@ Example request:
 curl -X POST \
   -H "Content-Type: application/json" \
   -d '{"Time_spent_Alone":4.0,"Stage_fear":"No","Social_event_attendance":4.0,"Going_outside":6.0,"Drained_after_socializing":"No","Friends_circle_size":13.0,"Post_frequency":5.0}' \
-  http://localhost:8080/predict
+  https://personality-ml-model-ns85c.ondigitalocean.app/predict
 ```
 
 Example response:
@@ -49,7 +49,7 @@ docker run --rm -p 8080:8080 personality-app
 
 Public endpoint:
 ```
-https://<app-name>.ondigitalocean.app/predict
+https://personality-ml-model-ns85c.ondigitalocean.app/
 ```
 
 ## Notes
