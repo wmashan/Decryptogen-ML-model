@@ -1,5 +1,5 @@
 {
-  "model_name": "Logistic Regression",
+  "model_name": "Random Forest (tuned)",
   "features": [
     "Time_spent_Alone",
     "Stage_fear",
