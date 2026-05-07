@@ -1,0 +1,7 @@
+.git
+.venv
+__pycache__
+*.ipynb
+*.zip
+inference
+personality_dataset.csv
